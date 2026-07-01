@@ -1,0 +1,27 @@
+# ─── Datos crudos (demasiado grandes para Git) ───
+data/
+*.csv
+*.zip
+
+# ─── Outputs generados (excepto el modelo) ───
+output/*
+!output/rf_churn_model.pkl
+
+# ─── Python ───
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ─── IDE ───
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── OS ───
+Thumbs.db
+.DS_Store
